@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+}
 
+h1 {
+  color: #333;
+}
+
+#new-task {
+  padding: 8px;
+  width: 200px;
+}
+
+#add-task-btn {
+  padding: 8px 12px;
+  margin-left: 8px;
+}
+
+#tasks-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#tasks-list li {
+  background: #fff;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 2px;
+}
